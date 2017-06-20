@@ -1,0 +1,8 @@
+# Items
+item.codecoins.oneCoin.name=1 Coin
+item.codecoins.tenCoin.name=10 Coins
+item.codecoins.hundredCoin.name=100 Coins
+item.codecoins.fiveHundredCoin.name=500 Coins
+item.codecoins.thousandCoin.name=1000 Coins
+#CreativeTab
+itemGroup.codecoins=CodeCoins

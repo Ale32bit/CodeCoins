@@ -1,0 +1,12 @@
+[{
+  "modid": "codecoins",
+  "name": "CodeCoins",
+  "description": "This mod adds 5 coins to use for commerce.",
+  "version": "Alpha 1.1",
+  "mcversion": "1.10.2",
+  "logoFile": "assets/codecoins/textures/items/oneCoin.png",
+  "url": "codersnet.cf/",
+  "updateJSON": "",
+  "authorList": ["Ale32bit"],
+  "credits": "Thanks to CodersNet Community for playing everyday.",
+}]
