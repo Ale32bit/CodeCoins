@@ -9,12 +9,12 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = CoinsMod.modId, name = CoinsMod.name, version = CoinsMod.version, acceptedMinecraftVersions = "[1.10.2]")
+@Mod(modid = CoinsMod.modid, name = CoinsMod.name, version = CoinsMod.version, acceptedMinecraftVersions = "[1.10.2]")
 public class CoinsMod {
 
-	public static final String modId = "codecoins";
+	public static final String modid = "codecoins";
 	public static final String name = "CodeCoins";
-	public static final String version = "Alpha 1.1";
+	public static final String version = "1.2";
 	
 	public static final CoinsTab creativeTab = new CoinsTab();
 	
@@ -23,7 +23,7 @@ public class CoinsMod {
 	@SidedProxy(serverSide = "cf.codersnet.coins.proxy.CommonProxy", clientSide = "cf.codersnet.coins.proxy.ClientProxy")
 	public static CommonProxy proxy;
 
-	@Mod.Instance(modId)
+	@Mod.Instance(modid)
 	public static CoinsMod instance;
 
 	@Mod.EventHandler

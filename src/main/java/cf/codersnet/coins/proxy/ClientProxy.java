@@ -9,6 +9,6 @@ public class ClientProxy extends CommonProxy {
 	@Override
 	public void registerItemRenderer(Item item, int meta, String id) {
 		System.out.println("Setting model to "+id);
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(CoinsMod.modId + ":" + id, "inventory"));
+		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(CoinsMod.modid + ":" + id, "inventory"));
 	}
 }
